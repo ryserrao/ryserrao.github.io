@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% assign blogposts = site.blogposts | where: 'blogpost', page.blogpost | first %}
+  {% if blogposts %}
+    - <a href="{{ blogposts.url }}">{{ blogposts.topic }}</a>
+  {% endif %}
+</p>
+
+{{ content }}
