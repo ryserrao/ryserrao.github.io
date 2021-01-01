@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+stylesheet: /assets/css/default_styles.css
 ---
 # About page
 

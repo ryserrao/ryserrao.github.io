@@ -1,5 +1,30 @@
 ---
 layout: default
 title: Home
+stylesheet: /assets/css/timeline_styles.css
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<div class="timeline">
+    <div>
+        {% for project in site.data.projects %}
+            {% for item in project[1] %}
+                {% if item.section == "Tech" %} 
+                    <div class="container right">
+                        <div class="content">
+                            <h2>{{ item.topic }}</h2>
+                            <p> {{ item.desc }}</p>
+                            <p> {{ item.start_date }} to {{ item.end_date }} </p>
+                        </div>
+                    </div>  
+                {% elsif item.section == "Creativity" %}
+                    <div class="container left">
+                        <div class="content">
+                            <h2>{{ item.topic }}</h2>
+                            <p> {{ item.desc }}</p>
+                            <p> {{ item.start_date }} to {{ item.end_date }} </p>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>

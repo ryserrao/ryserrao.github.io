@@ -1,0 +1,45 @@
+- section: Creativity
+  tag: Food
+  subtag: Interpretability
+  topic: Salmon Risotto
+  desc: A delicious Italian creamy Risotto
+  link:
+  start_date: 12-31-2020
+  end_date: 12-31-2020
+  progress: green
+- section: Tech
+  tag: AI
+  subtag: Interpretability
+  topic: SHAP
+  desc: A game theoretic approach to explain text and image explanations
+  link:
+  start_date: 09-01-2020
+  end_date: Present
+  progress: orange
+- section: Tech
+  tag: Work Experience
+  subtag: Industry
+  topic: Microsoft
+  desc: Data Scientist
+  link:
+  start_date: 04-01-2019
+  end_date: Present
+  progress: orange
+- section: Tech
+  tag: Education
+  subtag: Data Science
+  topic: Columbia University
+  desc: MS Data Science
+  link:
+  start_date: 09-01-2017
+  end_date: 12-20-2018
+  progress: green
+- section: Tech
+  tag: Education
+  subtag: Computer Science
+  topic: VIT University
+  desc: B.Tech Computer Science
+  link:
+  start_date: 07-01-2013
+  end_date: 04-30-2017
+  progress: green
