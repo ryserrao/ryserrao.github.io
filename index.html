@@ -8,7 +8,7 @@ stylesheet: /assets/css/timeline_styles.css
         {% for project in site.data.projects %}
             {% for item in project[1] %}
                 {% if item.section == "Tech" %} 
-                    <div class="container right">
+                    <div class="container right {{item.status}}">
                         <div class="content">
                             <h2>{{ item.topic }}</h2>
                             <p> {{ item.desc }}</p>
@@ -16,7 +16,7 @@ stylesheet: /assets/css/timeline_styles.css
                         </div>
                     </div>  
                 {% elsif item.section == "Creativity" %}
-                    <div class="container left">
+                    <div class="container left {{item.status}}">
                         <div class="content">
                             <h2>{{ item.topic }}</h2>
                             <p> {{ item.desc }}</p>

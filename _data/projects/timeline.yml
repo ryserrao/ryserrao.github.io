@@ -7,7 +7,7 @@
   link:
   start_date: 09-01-2020
   end_date: Present
-  progress: orange
+  status: progress
 - section: Tech
   tag: Work Experience
   subtag: Industry
@@ -16,7 +16,7 @@
   link:
   start_date: 04-01-2019
   end_date: Present
-  progress: orange
+  status: progress
 - section: Tech
   tag: Education
   subtag: Data Science
@@ -25,7 +25,7 @@
   link:
   start_date: 09-01-2017
   end_date: 12-20-2018
-  progress: green
+  status: success
 - section: Tech
   tag: Education
   subtag: Computer Science
@@ -34,4 +34,4 @@
   link:
   start_date: 07-01-2013
   end_date: 04-30-2017
-  progress: green
+  status: success
